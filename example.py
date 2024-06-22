@@ -63,6 +63,9 @@ if __name__ == "__main__":
         mlflow.log_metric("r2", r2)
         mlflow.log_metric("mae", mae)
 
+        remote_server_uri = "http://localhost:5000"
+        mlflow.set_tracking_uri(remote_server_uri)
+
         mlflow.sklearn.log_model(lr, "model")
 
         predictions = lr.predict(test_x)
