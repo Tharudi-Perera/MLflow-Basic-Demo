@@ -1,5 +1,7 @@
 # MLflow-Basic-Demo
 
-#Model - ElasticNet
-#Collaboration with DagsHub
-#Deploy - AWS
+##Model - ElasticNet
+
+##Collaboration with DagsHub
+
+##Deploy - AWS
